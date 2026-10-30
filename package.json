@@ -1,0 +1,13 @@
+{
+  "name": "davydenko-ipvhw4",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "json-server db.json --static ./public --host 127.0.0.1 --port 3004",
+    "test": "node --test test.js"
+  },
+  "devDependencies": {
+    "json-server": "1.0.0-beta.15"
+  }
+}
